@@ -27,6 +27,7 @@ WIN_COMBINATIONS.detect do |win_combination|
 
   if position_1 == "X" && position_2 == "X" && position 3 == "X"
     return win_combination
-  else 
+  else
     false
+    
 end
