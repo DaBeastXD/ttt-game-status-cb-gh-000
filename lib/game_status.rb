@@ -40,5 +40,5 @@ def full?
     return false
   else
     return true
-  end  
+  end
 end
