@@ -34,3 +34,6 @@ WIN_COMBINATIONS.detect do |win_combination|
   end
 end
 end
+
+def full?
+  if board.detect?{|i| i == " " || i == nil }
