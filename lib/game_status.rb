@@ -33,3 +33,4 @@ WIN_COMBINATIONS.detect do |win_combination|
     false
   end
 end
+end
