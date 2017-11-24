@@ -25,5 +25,6 @@ WIN_COMBINATIONS.detect do |win_combination|
   position_2 = board[win_index_2]
   position_3 = board[win_index_3]
 
-  if 
+  if position_1 == "X" && position_2 == "X" && position 3 == "X"
+    return win_combination
 end
