@@ -38,5 +38,5 @@ end
 def full?
   if board.detect?{|i| i == " " || i == nil }
     return false
-  else 
-    return false
+  else
+    return true
