@@ -46,7 +46,6 @@ end
 def draw?(board)
   if draw?(board) == win_combination
     return true
-  else 
+  else
     return false
 end
-
