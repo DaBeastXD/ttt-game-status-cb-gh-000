@@ -33,7 +33,7 @@ WIN_COMBINATIONS.detect do |win_combination|
     false
   end
 end
-end
+
 
 def full?(board)
   if board.detect?{|i| i == " "}
