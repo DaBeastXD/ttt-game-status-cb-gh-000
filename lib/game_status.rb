@@ -29,5 +29,5 @@ WIN_COMBINATIONS.detect do |win_combination|
     return win_combination
   else
     false
-    
+  end
 end
