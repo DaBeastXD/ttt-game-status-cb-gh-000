@@ -44,6 +44,7 @@ def full?(board)
 end
 
 def draw?(board)
-
+if draw?(board) == win_combination
+  return true
 
 end
